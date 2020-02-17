@@ -1,0 +1,19 @@
+{
+    "openapi": "3.0.0",
+    "paths": {
+        "/index": {
+            "get": {
+                "description": "Return all events",
+                "operationId": "App\\Http\\Controllers\\EventsController::index",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    },
+                    "422": {
+                        "description": "Missing Data"
+                    }
+                }
+            }
+        }
+    }
+}
